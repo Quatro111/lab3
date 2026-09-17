@@ -25,9 +25,9 @@ class Library:
 
 library = Library("Городская библиотека")
 
-library.add_book("Гарри Поттер")
+library.add_book("Превращение")
 library.add_book("Война и мир")
-library.add_book("Маленький принц")
+library.add_book("Преступление и наказание")
 
 library.show_name()
 
@@ -35,7 +35,7 @@ print("Книги:")
 library.show_books()
 
 print("\nПоиск:")
-if library.find_book("Гарри Поттер"):
+if library.find_book("Преступление и наказание"):
     print("Книга найдена.")
 else:
     print("Книга не найдена.")
